@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contaner{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(image/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contaner nav{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 8%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+}
+
+.contaner nav .logo img{
+    width: 170px;
+    margin-top: 12px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+.contaner nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.contaner nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contaner nav ul li a:hover{
+    color: #f9004d;
+}
+
+.contaner nav .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    border: 2px solid #f9004d;
+    padding: 10px 23px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #f9004d;
+    transition: 0.3s;
+}
+
+.contaner nav .btn a:hover{
+    background: #f9004d;
+}
+
+.contaner .tag_line{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+
+.contaner .tag_line .gareena_logo{
+    display: flex;
+    align-items: center;
+}
+
+.contaner .tag_line .gareena_logo img{
+    width: 120px;
+}
+
+.contaner .tag_line .gareena_logo p{
+    color: #e7e7e7;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.contaner .tag_line h2{
+    color: #e6e3e3;
+    font-size: 65px;
+    text-shadow: 0 0 20px black;
+    margin: 10px 0;
+}
+
+.contaner .tag_line h1{
+    color: #ffcc00;
+    text-shadow: 3px 0 20px black;
+    font-size: 75px;
+}
+
+.about{
+    width: 100%;
+    height: 110vh;
+    padding-top: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url(image/2background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .tag{
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    color: white;
+}
+
+.about .main img{
+    width: 550px;
+    cursor: pointer;
+}
+
+.about .main .about_text{
+    width: 700px;
+}
+
+.about .main .about_text h1{
+    color: #ffcc00;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.about .main .about_text p{
+    color: white;
+    font-size: 17px;
+    text-align: justify;
+    margin-bottom: 40px;
+    line-height: 22px;
+}
+
+.about .main .about_text button{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 40px;
+    border-radius: 50px;
+    outline: none;
+    background: none;
+    border: 2px solid #fff;
+    box-shadow: 0 0 16px white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.about .main .about_text button:hover{
+    color: black;
+    background: #ffcc00;
+    border: 2px solid transparent;
+    box-shadow: 0 0 16px #ffcc00;    
+}
+
+.character{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3));
+    padding: 40px;
+}
+
+.character .title h1{
+    width: 1130px;
+    font-size: 75px;
+    text-align: center;
+    margin: 30px auto;
+    color: white;
+}
+
+.character .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character .box .cards{
+    width: 335px;
+    height: 550px;
+    padding: 20px 20px;
+    margin: 15px;
+    background: #292929;
+    text-align: center;
+    box-shadow: 2px 0 20px rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+
+.character .box .cards:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.character .box .cards img{
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+.character .box .cards img:hover{
+    transform: scale(1.1);
+}
+
+.character .box .cards h2{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.character .box .cards p{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.esports{
+    width: 100%;
+    height: 120vh;
+    background-image: url(image/esports.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.esports .esports_tag h1{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    font-size: 75px;
+    padding: 50px 0;
+    text-shadow: 0 0 20px black;
+}
+
+.esports .boxer .box_image{
+    display: flex;
+    justify-content: center;
+}
+
+.esports .box_image img{
+    width: 550px;
+    margin: 15px 15px;
+    transition: 0.3s;
+}
+
+.esports .box_image img:hover{
+    transform: scale(1.1);
+    border: 4px solid white;
+    border-radius: 12px;
+}
+
+.end_page{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/end\ page\ background.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.end_page .download_app{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 450px;
+    cursor: pointer;
+}
+
+.end_page .download_app img{
+    width: 180px;
+    margin: 10px;
+}
+
+.end_page .download_app img:hover{
+    box-shadow: 0 0 10px rgba(228,226,226);
+}
